@@ -1,15 +1,15 @@
-var numbersOfSquares = 6
-var colores = generateRandomColors(numbersOfSquares)
-var square = document.querySelectorAll(".square")
-var pickedColor = pickColor(5)
-var spanColorDisplay = document.querySelector("#colorDisplay")
+let numbersOfSquares = 6
+let colores = generateRandomColors(numbersOfSquares)
+let square = document.querySelectorAll(".square")
+let pickedColor = pickColor(5)
+let spanColorDisplay = document.querySelector("#colorDisplay")
 spanColorDisplay.textContent = pickedColor
-var spanMensaje = document.querySelector("#message")
-var $h1 = document.querySelector ("h1")
-var btnReset = document.querySelector("#reset")
-var botonEasy = document.querySelector("#easy")
-var botonHard = document.querySelector("#hard")
-var clickedColor = []
+let spanMensaje = document.querySelector("#message")
+let $h1 = document.querySelector ("h1")
+let btnReset = document.querySelector("#reset")
+let botonEasy = document.querySelector("#easy")
+let botonHard = document.querySelector("#hard")
+let clickedColor = []
 
 
 
@@ -45,7 +45,6 @@ spanColorDisplay.textContent = pickedColor
         })
         
     }
-
 }
 
 
